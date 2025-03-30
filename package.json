@@ -1,0 +1,19 @@
+{
+  "name": "q-learn-maze",
+  "version": "1.0.0",
+  "description": "Q-learn algorithm for 2D maze solving",
+  "scripts": {
+    "start": "tsx src/main.ts mazes/simple.txt"
+  },
+  "author": "Johannes Weih",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.13.14",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
